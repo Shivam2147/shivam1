@@ -14,7 +14,7 @@ function init() {
             nav.style.right = '0';
             smallpen = true;
         }
-    });
+    })
 
     nav.children[0].addEventListener('click', () => {
         nav.style.right = '-100%';
